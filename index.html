@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>M.F Dev</title>
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!--CSS File-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav>
+        <img id="logo-page" src="assets/imgs/Logo.svg" alt="Logo">
+        <div id="headerpages">
+            <a href="#about">About</a>
+            <a href="#projects-legend">Projects</a>
+            <a href="#contact-me">Contact</a>
+        </div>
+    </nav>
+    <div class="belowheader">
+        <div class="content-left">
+            <h1>
+                A Front-end Developer
+            </h1>
+        </div>
+        <div class="headermenu">
+            <a href="#about">
+                About
+            </a>
+            <a href="#projects-legend">
+                Projects
+            </a>
+            <a href="#contact-me">
+                Contact
+            </a>
+        </div>
+    </div>
+    <div id="projects-legend">
+    <h1>
+        Projects
+    </h1>
+    <p>
+        These are a few of the Projects I’ve worked on.
+    </p>
+    </div>
+    <div id="projects">
+        <figure>
+            <img id="project-img-format" src="assets/imgs/example.jpg" alt="test">
+            <figcaption>
+                <p>JavaScript</p>
+                <p>Node.js</p>
+                <p>HTML</p>
+                <p>CSS</p>
+            </figcaption>
+            <h1>Project Title</h1>
+        </figure>
+        <figure>
+            <img id="project-img-format" src="assets/imgs/example.jpg" alt="test">
+            <figcaption>
+                <p>JavaScript</p>
+                <p>Node.js</p>
+                <p>HTML</p>
+                <p>CSS</p>
+            </figcaption>
+            <h1>Project Title</h1>
+        </figure>
+        <figure>
+            <img id="project-img-format" src="assets/imgs/example.jpg" alt="test">
+            <figcaption>
+                <p>JavaScript</p>
+                <p>Node.js</p>
+                <p>HTML</p>
+                <p>CSS</p>
+            </figcaption>
+            <h1>Project Title</h1>
+        </figure>
+    </div>
+    <div class="semmorediv">
+    <button id="seemore-button" onclick="SeeMore()">
+        See more
+    </button>
+    </div>
+    <div id="about">
+        <div class="about-me">
+            <h1>
+                About Me
+            </h1>
+            <div class="about-content">
+            <p>
+                Hey, my name is Marco I work as a front-end developer, with experience with HTML, CSS, JS.
+            </p>
+            </div>
+        </div>
+        <div class="info">
+            <div class="projects-counter">
+                <h1 class="info-h1">
+                    X+
+                </h1>
+                <p class="info-p">
+                    Projects Done
+                </p>
+            </div>
+            <img src="assets/imgs/line/Line 3.svg" alt="Line">
+            <div class="positive-critics">
+                <h1 class="info-h1">
+                    X+
+                </h1>
+                <p class="info-p">
+                    Positive Critics
+                </p>
+            </div>
+            <img src="assets/imgs/line/Line 3.svg" alt="Line">
+            <div class="years-experience">
+                <h1 class="info-h1">
+                    X+
+                </h1>
+                <p class="info-p">
+                    Year's of Experience
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="background-contact">
+        <div class="list-services">
+            <h1>
+                List of Services
+            </h1>
+            <div class="services-content">
+                <ul>
+                    <li>HTML & CSS Responsive Web Design</li>
+                    <li>SEO</li>
+                    <li>JavaScript Development</li>
+                    <li>Product Managment</li>
+                </ul>
+            </div>
+        </div>
+        <div class="skills-div">
+            <h1>
+                Skills
+            </h1>
+            <div class="skills-imgs">
+                <img src="assets/imgs/icons/HTML.svg" alt="HTML">
+                <img src="assets/imgs/icons/CSS.svg" alt="CSS">
+                <img src="assets/imgs/icons/JS.svg" alt="JS">
+            </div>
+        </div>
+        <div id="contact-me">
+            <h1>
+                CONTACT ME
+            </h1>
+            <form class="form-contact" action="">
+                <input id="name" type="text" placeholder="Name">
+                <input id="email" type="email" placeholder="Email">
+                <textarea id="content" placeholder="Message" rows="4" cols="50"></textarea>
+            </form>
+            <button id="submit-button" onclick="SendMail()">SUBMIT</button>
+        </div>
+    </div>
+    <footer>
+        <img src="assets/imgs/icons/Instagram.svg" alt="Instagram">
+        <img src="assets/imgs/icons/Linkin.svg" alt="Linkin">
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
